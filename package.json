@@ -1,10 +1,13 @@
- 
 {
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  
-   "devDependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "gh-pages": "^6.1.1",
+    "save": "^2.9.0"
   }
 }
